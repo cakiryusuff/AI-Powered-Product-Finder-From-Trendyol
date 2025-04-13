@@ -1,0 +1,161 @@
+[2025-04-13 20:08:26,592] [INFO] - Kullanıcıdan gelen doğal dil sorgusu: Siyah kol çantası en fazla 500 tl
+[2025-04-13 20:08:28,556] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:08:28,562] [INFO] - Query Agent başarılı şekilde çalıştı.
+[2025-04-13 20:08:28,562] [INFO] - Scrape işlemi başlatıldı: product_name='kol çantası' category='çanta' min_price=0 max_price=500 query='siyah kol çantası' color='siyah' material=None
+[2025-04-13 20:08:29,382] [INFO] - Açılan URL: https://www.trendyol.com/sr?q=siyah kol çantası
+[2025-04-13 20:08:35,646] [INFO] - Çerez onayı başarıyla verildi.
+[2025-04-13 20:08:35,646] [INFO] - Renk filtresi uygulanıyor: siyah
+[2025-04-13 20:08:42,547] [INFO] - Renk filtresi başarıyla uygulandı: siyah
+[2025-04-13 20:08:42,548] [INFO] - Fiyat filtresi uygulanıyor: min=0, max=500
+[2025-04-13 20:08:48,759] [INFO] - Fiyat filtresi başarıyla uygulandı.
+[2025-04-13 20:08:54,960] [INFO] - Toplam 24 ürün kartı bulundu.
+[2025-04-13 20:08:54,973] [INFO] - 1. Ürün linki: https://www.trendyol.com/tonny-black/kadin-orijinal-mini-urban-capraz-ayarlanabilir-askili-fermuarli-kucuk-boy-el-kol-ve-omuz-cantasi-p-286919723?boutiqueId=61&merchantId=352179
+[2025-04-13 20:08:54,985] [INFO] - 2. Ürün linki: https://www.trendyol.com/shaka/siyah-u22-3-bolmeli-on-2-cep-detayli-kanvas-kumas-gunluk-kadin-kol-ve-omuz-cantasi-b-35-e-35-p-160334999?boutiqueId=61&merchantId=223584
+[2025-04-13 20:08:55,178] [INFO] - Tarayıcı kapatıldı. Scraping işlemi tamamlandı.
+[2025-04-13 20:08:55,190] [INFO] - 🟡 Ürün detaylarını alma işlemi başlatıldı.
+[2025-04-13 20:08:56,008] [INFO] - 🔗 Açılan URL: https://www.trendyol.com/tonny-black/kadin-orijinal-mini-urban-capraz-ayarlanabilir-askili-fermuarli-kucuk-boy-el-kol-ve-omuz-cantasi-p-286919723?boutiqueId=61&merchantId=352179
+[2025-04-13 20:08:58,391] [INFO] - 📦 Ürün: Tonny Black Kadın Orijinal Mini Urban Çapraz Ayarlanabilir Askılı Fermuarlı Küçük Boy El Kol Ve Omuz Çantası - 184,20 TL
+[2025-04-13 20:09:03,380] [INFO] - 🔉 30 Soru ve Cevap toplandı.
+[2025-04-13 20:09:11,945] [INFO] - 🌟 5 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:09:23,980] [INFO] - 🌟 4 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:09:35,243] [INFO] - 🌟 3 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:09:46,684] [INFO] - 🌟 2 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:09:58,247] [INFO] - 🌟 1 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:10:05,392] [INFO] - 💬 250 yorum toplandı.
+[2025-04-13 20:10:05,392] [INFO] - ✅ Ürün başarıyla işlendi.
+[2025-04-13 20:10:05,392] [INFO] - 🔗 Açılan URL: https://www.trendyol.com/shaka/siyah-u22-3-bolmeli-on-2-cep-detayli-kanvas-kumas-gunluk-kadin-kol-ve-omuz-cantasi-b-35-e-35-p-160334999?boutiqueId=61&merchantId=223584
+[2025-04-13 20:10:07,899] [INFO] - 📦 Ürün: Shaka Siyah U22 3 Bölmeli Ön 2 Cep Detaylı Kanvas Kumaş Günlük Kadın Kol Ve Omuz Çantası B:35 E:35 - 146,77 TL
+[2025-04-13 20:10:12,733] [INFO] - 🔉 30 Soru ve Cevap toplandı.
+[2025-04-13 20:10:20,534] [INFO] - 🌟 5 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:10:31,935] [INFO] - 🌟 4 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:10:43,655] [INFO] - 🌟 3 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:10:55,760] [INFO] - 🌟 2 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:11:07,241] [INFO] - 🌟 1 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:11:14,385] [INFO] - 💬 250 yorum toplandı.
+[2025-04-13 20:11:14,385] [INFO] - ✅ Ürün başarıyla işlendi.
+[2025-04-13 20:11:14,605] [INFO] - 💾 Veriler 'product_data.json' dosyasına kaydedildi.
+[2025-04-13 20:11:19,699] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:11:25,559] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:11:29,038] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:11:34,118] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:24:43,023] [INFO] - Kullanıcıdan gelen doğal dil sorgusu: siyah kol çantası en fazla 2000 tl
+[2025-04-13 20:24:45,498] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:24:45,507] [INFO] - Query Agent başarılı şekilde çalıştı.
+[2025-04-13 20:24:45,507] [INFO] - Scrape işlemi başlatıldı: product_name='kol çantası' category='çanta' min_price=0 max_price=2000 query='siyah kol çantası' color='siyah' material=None
+[2025-04-13 20:24:46,425] [INFO] - Açılan URL: https://www.trendyol.com/sr?q=siyah kol çantası
+[2025-04-13 20:24:52,379] [INFO] - Çerez onayı başarıyla verildi.
+[2025-04-13 20:24:52,380] [INFO] - Renk filtresi uygulanıyor: siyah
+[2025-04-13 20:24:58,967] [INFO] - Renk filtresi başarıyla uygulandı: siyah
+[2025-04-13 20:24:58,967] [INFO] - Fiyat filtresi uygulanıyor: min=0, max=2000
+[2025-04-13 20:25:05,213] [INFO] - Fiyat filtresi başarıyla uygulandı.
+[2025-04-13 20:25:11,394] [INFO] - Toplam 24 ürün kartı bulundu.
+[2025-04-13 20:25:11,413] [INFO] - 1. Ürün linki: https://www.trendyol.com/tonny-black/kadin-orijinal-mini-urban-capraz-ayarlanabilir-askili-fermuarli-kucuk-boy-el-kol-ve-omuz-cantasi-p-286919723?boutiqueId=61&merchantId=352179
+[2025-04-13 20:25:11,429] [INFO] - 2. Ürün linki: https://www.trendyol.com/shaka/siyah-u22-3-bolmeli-on-2-cep-detayli-kanvas-kumas-gunluk-kadin-kol-ve-omuz-cantasi-b-35-e-35-p-160334999?boutiqueId=61&merchantId=223584
+[2025-04-13 20:25:11,644] [INFO] - Tarayıcı kapatıldı. Scraping işlemi tamamlandı.
+[2025-04-13 20:25:11,656] [INFO] - 🟡 Ürün detaylarını alma işlemi başlatıldı.
+[2025-04-13 20:25:12,673] [INFO] - 🔗 Açılan URL: https://www.trendyol.com/tonny-black/kadin-orijinal-mini-urban-capraz-ayarlanabilir-askili-fermuarli-kucuk-boy-el-kol-ve-omuz-cantasi-p-286919723?boutiqueId=61&merchantId=352179
+[2025-04-13 20:25:15,212] [INFO] - 📦 Ürün: Tonny Black Kadın Orijinal Mini Urban Çapraz Ayarlanabilir Askılı Fermuarlı Küçük Boy El Kol Ve Omuz Çantası - 184,20 TL
+[2025-04-13 20:25:20,292] [INFO] - 🔉 30 Soru ve Cevap toplandı.
+[2025-04-13 20:25:28,779] [INFO] - 🌟 5 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:25:40,212] [INFO] - 🌟 4 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:25:51,779] [INFO] - 🌟 3 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:26:03,371] [INFO] - 🌟 2 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:26:14,987] [INFO] - 🌟 1 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:26:23,173] [INFO] - 💬 250 yorum toplandı.
+[2025-04-13 20:26:23,173] [INFO] - ✅ Ürün başarıyla işlendi.
+[2025-04-13 20:26:23,174] [INFO] - 🔗 Açılan URL: https://www.trendyol.com/shaka/siyah-u22-3-bolmeli-on-2-cep-detayli-kanvas-kumas-gunluk-kadin-kol-ve-omuz-cantasi-b-35-e-35-p-160334999?boutiqueId=61&merchantId=223584
+[2025-04-13 20:26:25,959] [INFO] - 📦 Ürün: Shaka Siyah U22 3 Bölmeli Ön 2 Cep Detaylı Kanvas Kumaş Günlük Kadın Kol Ve Omuz Çantası B:35 E:35 - 146,77 TL
+[2025-04-13 20:26:30,865] [INFO] - 🔉 30 Soru ve Cevap toplandı.
+[2025-04-13 20:26:38,846] [INFO] - 🌟 5 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:26:50,383] [INFO] - 🌟 4 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:27:02,116] [INFO] - 🌟 3 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:27:13,696] [INFO] - 🌟 2 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:27:25,893] [INFO] - 🌟 1 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:27:33,267] [INFO] - 💬 250 yorum toplandı.
+[2025-04-13 20:27:33,267] [INFO] - ✅ Ürün başarıyla işlendi.
+[2025-04-13 20:27:33,487] [INFO] - 💾 Veriler 'product_data.json' dosyasına kaydedildi.
+[2025-04-13 20:27:38,697] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:27:43,130] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:27:45,961] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:27:50,322] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:32:19,812] [INFO] - Kullanıcıdan gelen doğal dil sorgusu: Siyah kol çantası en fazla 2000 tl
+[2025-04-13 20:32:21,866] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:32:21,877] [INFO] - Query Agent başarılı şekilde çalıştı.
+[2025-04-13 20:32:21,877] [INFO] - Scrape işlemi başlatıldı: product_name='kol çantası' category='çanta' min_price=0 max_price=2000 query='Siyah kol çantası' color='siyah' material=None
+[2025-04-13 20:32:22,709] [INFO] - Açılan URL: https://www.trendyol.com/sr?q=Siyah kol çantası
+[2025-04-13 20:32:28,696] [INFO] - Çerez onayı başarıyla verildi.
+[2025-04-13 20:32:28,696] [INFO] - Renk filtresi uygulanıyor: siyah
+[2025-04-13 20:32:35,006] [INFO] - Renk filtresi başarıyla uygulandı: siyah
+[2025-04-13 20:32:35,006] [INFO] - Fiyat filtresi uygulanıyor: min=0, max=2000
+[2025-04-13 20:32:41,255] [INFO] - Fiyat filtresi başarıyla uygulandı.
+[2025-04-13 20:32:47,404] [INFO] - Toplam 24 ürün kartı bulundu.
+[2025-04-13 20:32:47,420] [INFO] - 1. Ürün linki: https://www.trendyol.com/tonny-black/kadin-orijinal-mini-urban-capraz-ayarlanabilir-askili-fermuarli-kucuk-boy-el-kol-ve-omuz-cantasi-p-286919723?boutiqueId=61&merchantId=352179
+[2025-04-13 20:32:47,627] [INFO] - Tarayıcı kapatıldı. Scraping işlemi tamamlandı.
+[2025-04-13 20:32:47,637] [INFO] - 🟡 Ürün detaylarını alma işlemi başlatıldı.
+[2025-04-13 20:32:48,436] [INFO] - 🔗 Açılan URL: https://www.trendyol.com/tonny-black/kadin-orijinal-mini-urban-capraz-ayarlanabilir-askili-fermuarli-kucuk-boy-el-kol-ve-omuz-cantasi-p-286919723?boutiqueId=61&merchantId=352179
+[2025-04-13 20:32:50,527] [INFO] - 📦 Ürün: Tonny Black Kadın Orijinal Mini Urban Çapraz Ayarlanabilir Askılı Fermuarlı Küçük Boy El Kol Ve Omuz Çantası - 184,20 TL
+[2025-04-13 20:32:55,471] [INFO] - 🔉 30 Soru ve Cevap toplandı.
+[2025-04-13 20:33:03,902] [INFO] - 🌟 5 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:33:15,071] [INFO] - 🌟 4 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:33:26,520] [INFO] - 🌟 3 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:33:37,949] [INFO] - 🌟 2 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:33:49,239] [INFO] - 🌟 1 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:33:56,030] [INFO] - 💬 250 yorum toplandı.
+[2025-04-13 20:33:56,031] [INFO] - ✅ Ürün başarıyla işlendi.
+[2025-04-13 20:33:56,233] [INFO] - 💾 Veriler 'product_data.json' dosyasına kaydedildi.
+[2025-04-13 20:34:02,951] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:34:08,187] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:35:58,429] [INFO] - Kullanıcıdan gelen doğal dil sorgusu: Siyah kol çantası en fazla 2000 tl
+[2025-04-13 20:36:00,502] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:36:00,507] [INFO] - Query Agent başarılı şekilde çalıştı.
+[2025-04-13 20:36:00,507] [INFO] - Scrape işlemi başlatıldı: product_name='kol çantası' category='çanta' min_price=0 max_price=2000 query='siyah kol çantası' color='siyah' material=None
+[2025-04-13 20:36:01,320] [INFO] - Açılan URL: https://www.trendyol.com/sr?q=siyah kol çantası
+[2025-04-13 20:36:08,603] [INFO] - Çerez onayı başarıyla verildi.
+[2025-04-13 20:36:08,603] [INFO] - Renk filtresi uygulanıyor: siyah
+[2025-04-13 20:36:14,920] [INFO] - Renk filtresi başarıyla uygulandı: siyah
+[2025-04-13 20:36:14,921] [INFO] - Fiyat filtresi uygulanıyor: min=0, max=2000
+[2025-04-13 20:36:21,170] [INFO] - Fiyat filtresi başarıyla uygulandı.
+[2025-04-13 20:36:27,333] [INFO] - Toplam 24 ürün kartı bulundu.
+[2025-04-13 20:36:27,347] [INFO] - 1. Ürün linki: https://www.trendyol.com/tonny-black/kadin-orijinal-mini-urban-capraz-ayarlanabilir-askili-fermuarli-kucuk-boy-el-kol-ve-omuz-cantasi-p-286919723?boutiqueId=61&merchantId=352179
+[2025-04-13 20:36:27,521] [INFO] - Tarayıcı kapatıldı. Scraping işlemi tamamlandı.
+[2025-04-13 20:36:27,531] [INFO] - 🟡 Ürün detaylarını alma işlemi başlatıldı.
+[2025-04-13 20:36:28,350] [INFO] - 🔗 Açılan URL: https://www.trendyol.com/tonny-black/kadin-orijinal-mini-urban-capraz-ayarlanabilir-askili-fermuarli-kucuk-boy-el-kol-ve-omuz-cantasi-p-286919723?boutiqueId=61&merchantId=352179
+[2025-04-13 20:36:30,614] [INFO] - 📦 Ürün: Tonny Black Kadın Orijinal Mini Urban Çapraz Ayarlanabilir Askılı Fermuarlı Küçük Boy El Kol Ve Omuz Çantası - 184,20 TL
+[2025-04-13 20:36:35,589] [INFO] - 🔉 30 Soru ve Cevap toplandı.
+[2025-04-13 20:36:43,977] [INFO] - 🌟 5 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:36:55,240] [INFO] - 🌟 4 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:37:06,677] [INFO] - 🌟 3 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:37:18,127] [INFO] - 🌟 2 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:37:29,416] [INFO] - 🌟 1 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:37:36,230] [INFO] - 💬 250 yorum toplandı.
+[2025-04-13 20:37:36,230] [INFO] - ✅ Ürün başarıyla işlendi.
+[2025-04-13 20:37:36,431] [INFO] - 💾 Veriler 'product_data.json' dosyasına kaydedildi.
+[2025-04-13 20:37:41,898] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:37:45,388] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:38:51,466] [INFO] - Kullanıcıdan gelen doğal dil sorgusu: Siyah kol çantası en fazla 2000 tl
+[2025-04-13 20:38:53,273] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:38:53,281] [INFO] - Query Agent başarılı şekilde çalıştı.
+[2025-04-13 20:38:53,281] [INFO] - Scrape işlemi başlatıldı: product_name='kol çantası' category='çanta' min_price=0 max_price=2000 query='siyah kol çantası' color='siyah' material=None
+[2025-04-13 20:38:54,093] [INFO] - Açılan URL: https://www.trendyol.com/sr?q=siyah kol çantası
+[2025-04-13 20:39:00,077] [INFO] - Çerez onayı başarıyla verildi.
+[2025-04-13 20:39:00,077] [INFO] - Renk filtresi uygulanıyor: siyah
+[2025-04-13 20:39:06,411] [INFO] - Renk filtresi başarıyla uygulandı: siyah
+[2025-04-13 20:39:06,411] [INFO] - Fiyat filtresi uygulanıyor: min=0, max=2000
+[2025-04-13 20:39:12,629] [INFO] - Fiyat filtresi başarıyla uygulandı.
+[2025-04-13 20:39:18,810] [INFO] - Toplam 24 ürün kartı bulundu.
+[2025-04-13 20:39:18,824] [INFO] - 1. Ürün linki: https://www.trendyol.com/tonny-black/kadin-orijinal-mini-urban-capraz-ayarlanabilir-askili-fermuarli-kucuk-boy-el-kol-ve-omuz-cantasi-p-286919723?boutiqueId=61&merchantId=352179
+[2025-04-13 20:39:19,047] [INFO] - Tarayıcı kapatıldı. Scraping işlemi tamamlandı.
+[2025-04-13 20:39:19,055] [INFO] - 🟡 Ürün detaylarını alma işlemi başlatıldı.
+[2025-04-13 20:39:19,883] [INFO] - 🔗 Açılan URL: https://www.trendyol.com/tonny-black/kadin-orijinal-mini-urban-capraz-ayarlanabilir-askili-fermuarli-kucuk-boy-el-kol-ve-omuz-cantasi-p-286919723?boutiqueId=61&merchantId=352179
+[2025-04-13 20:39:21,998] [INFO] - 📦 Ürün: Tonny Black Kadın Orijinal Mini Urban Çapraz Ayarlanabilir Askılı Fermuarlı Küçük Boy El Kol Ve Omuz Çantası - 184,20 TL
+[2025-04-13 20:39:26,915] [INFO] - 🔉 30 Soru ve Cevap toplandı.
+[2025-04-13 20:39:35,400] [INFO] - 🌟 5 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:39:46,580] [INFO] - 🌟 4 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:39:58,051] [INFO] - 🌟 3 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:40:09,418] [INFO] - 🌟 2 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:40:20,626] [INFO] - 🌟 1 yıldızlı yorumlar çekiliyor...
+[2025-04-13 20:40:27,483] [INFO] - 💬 250 yorum toplandı.
+[2025-04-13 20:40:27,484] [INFO] - ✅ Ürün başarıyla işlendi.
+[2025-04-13 20:40:27,709] [INFO] - 💾 Veriler 'product_data.json' dosyasına kaydedildi.
+[2025-04-13 20:40:33,065] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-04-13 20:40:36,655] [INFO] - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
