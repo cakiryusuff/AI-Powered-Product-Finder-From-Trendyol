@@ -2,6 +2,8 @@
 
 AI-powered product analysis and recommendation system for Trendyol. It analyzes product features and user reviews using intelligent agents to help users find the most suitable products based on their preferences.
 
+![](https://github.com/cakiryusuff/AI-Powered-Product-Finder-From-Trendyol/blob/main/readme_video/trendyolproject.gif)
+
 ## 📌 Features
 
 - 🔎 Natural language product search (e.g. "Siyah kol çantası en fazla 2000 TL")
