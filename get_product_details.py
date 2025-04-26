@@ -2,6 +2,7 @@ from playwright.sync_api import sync_playwright
 import logging
 import json
 import time
+from typing import Any
 
 logger = logging.getLogger(__name__)
 
@@ -125,7 +126,7 @@ def save_to_json(data, filename="product_data.json"):
 
 def get_card_details(product_links: list):
     logging.info("🟡 Ürün detaylarını alma işlemi başlatıldı.")
-    all_products = []
+    all_products: list[dict[str, Any]] = []
     all_comments = []
 
     with sync_playwright() as p:

@@ -4,6 +4,13 @@ from get_product_details import get_card_details
 from product_analysis_agents import product_analysis_func, review_sentiment_fun
 
 def main():
+    try:
+        from database_class import DatabaseManager  
+        database_manager = DatabaseManager(host="localhost", dbname="demodb", user="postgres", password="", port="5432")
+    except Exception as e:
+        print(f"⚠️ Veritabanı bağlantısı kurulamadı: {e}")
+        database_manager = None
+        
     text = input("🔍 Ürün ve özellikleri girin: ")
 
     print("\n🔎 Ürünler aranıyor...")
@@ -18,7 +25,6 @@ def main():
     print("🧠 Ürünler analiz ediliyor...")
     product_analysis = product_analysis_func(product_details)
     product_comment_analysis = review_sentiment_fun(product_comments)
-
 
     for i, (p, c, d, l) in enumerate(zip(product_analysis, product_comment_analysis, product_details, product_links), start=1):
         print("\n" + "-"*50)
@@ -38,6 +44,19 @@ def main():
         print("💬 Yorumlara Göre Ürünün İyi Yönleri", c.praises,"\n")
         print("💬 Yorumlara Göre Ürünün Kötü Yönleri: ", c.complaints,"\n")
         print("💬 Yorumların Özeti: ", c.summary_of_comments,"\n")
+
+        if database_manager:
+            try:
+                database_manager.insert_product(d, l, p, c)
+            except Exception as e:
+                print(f"⚠️ Ürün veritabanına kaydedilemedi: {e}")
+    
+    
+    if database_manager:
+        try:
+            database_manager.close()
+        except Exception as e:
+            print(f"⚠️ Ürün veritabanına kaydedilemedi: {e}")
 
 if __name__ == "__main__":
     main()
